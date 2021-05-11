@@ -1,0 +1,19 @@
+name: PCSCuirass
+description: Private Courier Service "Cuirass" - we will deliver your garbage anywhere in three worlds
+version: 0.1
+main: goodmice.pcsc.PCSCuirass
+author: goodmice
+depend: [ I18N ]
+prefix: GM
+website: https://github.com/goodm2ice/PCSCuirass
+
+commands:
+   shop:
+      description: Call shop screen
+      usage: /shop
+      permission: pcsc.buy
+
+permissions:
+   pcsc.shop:
+      description: Allow call shop screen
+      default: true
