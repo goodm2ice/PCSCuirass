@@ -7,22 +7,20 @@ import org.bukkit.command.CommandSender;
 
 import goodmice.pcsc.PCSCuirass;
 
-final public class CommandShop extends BaseCommand {
+public final class CommandShop extends BaseCommand {
 
 	public CommandShop(PCSCuirass plugin) {
 		super(plugin);
 	}
 
 	@Override
-	public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
-		// TODO Auto-generated method stub
-		return false;
+	public List<String> onTabComplete(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
+		return null;
 	}
 
 	@Override
-	public List<String> onTabComplete(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
+		return false;
 	}
 
 }
